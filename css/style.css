@@ -1,0 +1,93 @@
+.wrapper{
+    background: #eee;
+    padding: 60px 0;
+}
+
+.container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.image{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.overlay{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #eee;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
+.text{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.overlayLeft{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color:teal;
+}
+.overlayRight{
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    background-color: cadetblue;
+}
+.overlayTop{
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: darkcyan;
+}
+.overlayBottom{
+    width: 100%;
+    height: 0;
+    top: 0;
+    bottom: 0;
+    background-color: darkcyan;
+}
+.overlayCross{
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: deepskyblue;
+}
+.overlayFade{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: deepskyblue;
+}
+.container:hover .overlayCross{
+    width: 100%;
+    height: 100%;
+}
+.container:hover .overlayTop, .container:hover .overlayBottom{
+    height: 100%;
+}
+.container:hover .overlayLeft, .container:hover .overlayRight{
+    width: 100%;
+}
+
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
